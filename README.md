@@ -1,2 +1,4 @@
 # 150-interview
-My solutions to every question in the 150 leet interview questions
+
+### Objective
+This repo will keep track of my personal solutions for the Top Interview 150 found [here](https://leetcode.com/studyplan/top-interview-150/).

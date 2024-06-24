@@ -12,9 +12,8 @@ class Solution:
                     k += 1
         return k
 """
-Had to look at the answers. I was itterating thorugh the list in the wrong direction.
-This is an accepted answer. It starts at the 1 index and compares that with i - 1 until 
-the len of the list is reached.
+Had to look at the answers. I was itterating thorugh the list at i +1, not i -1.
+This is an accepted answer. It starts at the 1 index and compares that with i - 1 until the len of the list is reached.
 """
 class Solution:
     def removeDuplicates(self, nums):

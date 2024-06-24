@@ -22,7 +22,6 @@ class Solution:
         return k
     
 """
-This was my second solution which did work.
 I had to look at the solutions to get to this.
 This works because it checks each index of nums in range of the len of the list.
 If the the value at nums[i] does not match val then nums[k] = nums[i].

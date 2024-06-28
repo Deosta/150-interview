@@ -11,7 +11,7 @@ func isPalindrome(s string) bool {
 
 	s = strings.ToLower(s)
 	new_string := ""
-	IsLetter := regexp.MustCompile(`^[a-zA-Z]+$`).MatchString
+	IsLetter := regexp.MustCompile(`^[a-zA-Z0-9]+$`).MatchString
 
 	for i := range len(s) {
 		if IsLetter(string(s[i])) {

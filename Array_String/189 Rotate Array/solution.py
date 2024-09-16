@@ -10,7 +10,8 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         #initialize variables to hold value at last index and while loop counter
-        moved_value, i = nums[-1], 1
+        moved_value = nums[-1]
+        i = 1
 
         #loop while i <= k, remove last index, insert stored value at start of list, set holder to new value at last index, finally increment the counter.
         while i <= k:
